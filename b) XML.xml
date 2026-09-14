@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliothek>
+
+	<buch>
+		<titel>22 Bahnen</titel>
+   		<autor>Caroline Wahl</autor>
+    		<titelbild src="images/22_bahnen_cover.jpg" />
+    		<editionen>
+			<edition>
+				<jahr>2023</>
+				<verlag>Dumont Buchverlag</verlag>
+				<isbn>978-3-8321-6803-2</isbn>
+				<einband>Gebunden</einband>
+			</edition>
+			<edition>
+        			<jahr>2024</jahr>
+        			<verlag>Dumont Buchverlag</verlag>
+        			<isbn>978-3832168438</isbn>
+        			<einband>Taschenbuch</einband>
+      			</edition>
+    		</editionen>
+	</buch>
+
+	<buch>
+    		<titel>1984</titel>
+    		<autor>George Orwell</autor>
+    		<titelbild src="images/1984_cover.jpg" />
+    		<editionen>
+      			<edition>
+        			<jahr>2021</jahr>
+        			<verlag>Galiani Berlin</verlag>
+        			<isbn>978-3869712390</isbn>
+        			<einband>Gebunden</einband>
+      			</edition>
+    		</editionen>
+  	</buch>
+
+	<buch>
+    		<titel>Die Mitternachtsbibliothek</titel>
+    		<autor>Matt Haig</autor>
+    		<titelbild src="images/mitternachtsbibliothek_cover.jpg" />
+    		<editionen>
+      			<edition>
+       				<jahr>2021</jahr>
+        			<verlag>Droemer</verlag>
+        			<isbn>978-3426282564</isbn>
+        			<einband>Gebunden</einband>
+      			</edition>
+    		</editionen>
+	</buch>
+
+</bibliothek>
+
