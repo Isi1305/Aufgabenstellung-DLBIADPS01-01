@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" 
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    
+    <xsl:template match="/">
+        <html>
+            <head><title>Bibliothek</title></head>
+            <body>
+                <h1>Bücher der Bibliothek</h1>
+                <xsl:for-each select="bibliothek/buch">
+                    <h2> <xsl:value-of select="titel"/> </h2> 
+                <p> <strong>Autor:</strong> <xsl:value-of select="autor"/> </p> 
+                <img src="{titelbild/@src}" alt="Titelbild"/>
+
+                <h3>Editionen</h3>
+                <ul>
+                    <xsl:for-each select="editionen/edition">
+                        <li>
+                            <strong>Jahr:</strong>
+                            <xsl:value-of select="jahr"/>
+                            <br/>
+
+                            <strong>Verlag:</strong>
+                            <xsl:value-of select="verlag"/>
+                            <br/>
+
+                            <strong>ISBN:</strong>
+                            <xsl:value-of select="isbn"/>
+                            <br/>
+
+                            <strong>Einband:</strong>
+                            <xsl:value-of select="einband"/>
+                        </li>
+                    </xsl:for-each>
+                 </ul>
+                </xsl:for-each>
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>
