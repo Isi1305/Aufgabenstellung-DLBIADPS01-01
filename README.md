@@ -34,3 +34,15 @@ a) Wie hoch ist die Codeabdeckung der naiveMatch-Funktion durch die Testfunktion
 müssen ergänzt werden, um eine hundertprozentige Abdeckung zu erreichen? 
 b) Ändere die Funktion und die Tests so ab, dass die Anzahl der gefundenen Übereinstimmungen 
 zurückgegeben wird und eine hundertprozentige Codeabdeckung erreicht wird.
+
+
+Aufgabenstellung 6: 
+Gegeben ist das folgende Programm in Haskell, das eine Zahl faktorisiert: 
+
+factors n = [f | f <-[1..n], mod n f == 0] 
+main = do 
+print $ factors 
+
+Wie würde dieses Programm in C mittels imperativer Programmierung realisiert werden? 
+Diskutiere anhand dieses Beispiels wie sich die Paradigmen für imperative und funktionale Programmierung 
+unterscheiden.
